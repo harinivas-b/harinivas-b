@@ -21,7 +21,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/harinivas23b',
     github: 'https://github.com/harinivas-b',
   },
-  resumePdf: '#',
+  resumePdf: '/assets/resume.pdf',
   portrait: {
     src: '/assets/profile.jpg',
     srcSet: '/assets/profile.jpg 1x',
@@ -113,45 +113,6 @@ export const projects: Project[] = [
     github: 'https://github.com/harinivas-b/Assert-Tracking-and-Smart-Navigation',
     palette: { from: '#1a0d02', via: '#8a4a07', to: '#0a0806', accent: '#ffb547' },
     motif: 'flow',
-  },
-  {
-    id: 'fixtour-ai',
-    title: 'FixTour AI',
-    year: '2024',
-    genre: 'AI • Platform',
-    logline: 'Pending verification (Repository link currently inaccessible).',
-    stack: [],
-    build: ['Details to be updated once verified.'],
-    features: [],
-    metrics: [],
-    palette: { from: '#04121f', via: '#0f4c6e', to: '#05080d', accent: '#4cc9ff' },
-    motif: 'tenants',
-  },
-  {
-    id: 'skillmatch-ai',
-    title: 'SkillMatch AI',
-    year: '2024',
-    genre: 'AI',
-    logline: 'Pending verification.',
-    stack: [],
-    build: ['Details to be updated once verified.'],
-    features: [],
-    metrics: [],
-    palette: { from: '#120822', via: '#3d1a6e', to: '#07060c', accent: '#b98bff' },
-    motif: 'shield',
-  },
-  {
-    id: 'op-amp-light',
-    title: 'Automatic Light Controller',
-    year: '2024',
-    genre: 'Hardware',
-    logline: 'Automatic Light Controller using an Op-Amp. (Pending verification)',
-    stack: ['Op-Amp', 'Electronics'],
-    build: ['Details to be updated once verified.'],
-    features: [],
-    metrics: [],
-    palette: { from: '#03150f', via: '#0d5a40', to: '#050a08', accent: '#46e3a8' },
-    motif: 'flow',
   }
 ];
 
@@ -171,27 +132,6 @@ export const achievements: Achievement[] = [
     org: 'PYHACKFEST 2026',
     detail: 'AI-powered e-commerce recommendation system.',
     laurel: 'Second Place',
-  },
-  {
-    id: 'canva',
-    title: 'First Prize',
-    org: 'Canva',
-    detail: 'Pending verification details.',
-    laurel: 'First Prize',
-  },
-  {
-    id: 'toastmasters',
-    title: 'Best Role Player',
-    org: 'Toastmasters',
-    detail: 'Pending verification details.',
-    laurel: 'Best Role Player',
-  },
-  {
-    id: 'iitb',
-    title: 'Participant / Recognition',
-    org: 'IIT Bombay Illuminate',
-    detail: 'Pending verification details.',
-    laurel: 'Recognition',
   }
 ];
 
