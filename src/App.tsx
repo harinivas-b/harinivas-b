@@ -73,6 +73,7 @@ function Series() {
       }
       if (stage !== 'home') {
         window.scrollTo(0, 0);
+        scrollTo(0, { immediate: true });
         setStage('home');
       } else {
         const p = viewerProfiles.find((v) => v.id === id)!;
