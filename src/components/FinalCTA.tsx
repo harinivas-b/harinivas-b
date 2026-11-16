@@ -79,7 +79,29 @@ export default function FinalCTA({ onReplay }: { onReplay: () => void }) {
         ))}
       </motion.div>
 
-      <div className="relative mt-16 flex flex-wrap justify-center gap-6 text-xs font-semibold tracking-[0.24em] text-smoke">
+      {/* Direct Crawlable Subpage Navigation */}
+      <div className="relative mt-12 max-w-2xl text-center">
+        <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-smoke mb-3">Explore Detailed Knowledge Pages</p>
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-3 text-xs">
+          <a href="/about" className="glass rounded-full px-4 py-1.5 text-bone/90 hover:text-white hover:bg-white/15 transition">
+            About Harinivas B
+          </a>
+          <a href="/vlsi-analog-ic" className="glass rounded-full px-4 py-1.5 text-bone/90 hover:text-white hover:bg-white/15 transition">
+            Analog IC & VLSI
+          </a>
+          <a href="/projects" className="glass rounded-full px-4 py-1.5 text-bone/90 hover:text-white hover:bg-white/15 transition">
+            Engineering Projects
+          </a>
+          <a href="/leadership-public-speaking" className="glass rounded-full px-4 py-1.5 text-bone/90 hover:text-white hover:bg-white/15 transition">
+            Leadership & Speaking
+          </a>
+          <a href="/entrepreneurship" className="glass rounded-full px-4 py-1.5 text-bone/90 hover:text-white hover:bg-white/15 transition">
+            Entrepreneurship
+          </a>
+        </div>
+      </div>
+
+      <div className="relative mt-10 flex flex-wrap justify-center gap-6 text-xs font-semibold tracking-[0.24em] text-smoke">
         <button type="button" onClick={() => scrollTo(0, { offset: 0 })} className="hover:text-bone">
           ↺ WATCH AGAIN
         </button>
@@ -88,12 +110,12 @@ export default function FinalCTA({ onReplay }: { onReplay: () => void }) {
         </button>
       </div>
 
-      <footer className="absolute inset-x-0 bottom-0 px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] text-center">
+      <footer className="relative mt-16 px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] text-center">
         <div className="mb-2 text-base">
           <SeriesMark />
         </div>
         <p className="text-[11px] leading-relaxed text-smoke">
-          © {new Date().getFullYear()} {profile.displayName}. A personal, streaming-inspired portfolio — not affiliated with any streaming service.
+          © {new Date().getFullYear()} {profile.displayName}. Official Engineering Portfolio · Sri Eshwar College of Engineering, Coimbatore.
         </p>
       </footer>
     </section>

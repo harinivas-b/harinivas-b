@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/about/index.html" },
+    { "source": "/vlsi-analog-ic", "destination": "/vlsi-analog-ic/index.html" },
+    { "source": "/projects", "destination": "/projects/index.html" },
+    { "source": "/leadership-public-speaking", "destination": "/leadership-public-speaking/index.html" },
+    { "source": "/entrepreneurship", "destination": "/entrepreneurship/index.html" }
+  ]
+}
