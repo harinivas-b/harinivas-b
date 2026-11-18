@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const distDir = path.resolve(__dirname, '../dist');
 
-const GOOGLE_VERIFICATION = '<meta name="google-site-verification" content="kO4C3qEi0XuAMY_BoBy6XOrEy2R3xNnQuE2Nv83DRvs" />';
+const GOOGLE_VERIFICATION = '<meta name="google-site-verification" content="-AOmifIGC_TSte2SUOHoZceXXASI2ECYGnLgLkODasc" />';
 
 const ROUTES = [
   {
